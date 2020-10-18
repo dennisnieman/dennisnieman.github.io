@@ -8,7 +8,6 @@
 <style>
 body{
    background: linear-gradient(to bottom, #00dddd 0%, #ff66cc 100%);
-   max-width: 1000px;
 }
 .space{
    width:10px;
@@ -20,7 +19,7 @@ body{
 </style>
 
 <body class="w3-content">
-<div class="w3-row" style="padding-left:16px; padding-right:16px;">
+<div id="top" class="w3-row" style="padding-left:16px; padding-right:16px;">
    <div class="w3-col s12 m6 l6 w3-card-4 w3-margin-top w3-white">
       <img src="https://www.w3schools.com/w3css/img_avatar3.png" style="width:100%">
       <div class="w3-container">
@@ -32,46 +31,49 @@ body{
    <div class="w3-col w3-hide-small m1 l1">&nbsp;</div>
 
    <div class="w3-col s12 m5 l5 w3-card-4 w3-margin-top w3-white">
-      <ul class="w3-ul w3-hoverable">
-         <li>CV</li>
-         <li>Publications</li>
-         <li>Teaching</li>
-      </ul>
+      <a href="#cv" class="w3-button w3-block">my CV</a>
+      <a href="#pu" class="w3-button w3-block">my publications</a>
+      <a href="#te" class="w3-button w3-block">teaching</a>
    </div>
 </div>
 
 <div class="space"></div>
 
-<div class="w3-card-4 w3-container w3-margin-left w3-margin-right w3-white">
-   <h3>CV</h3>
+<div id="cv" class="w3-card-4 w3-container w3-margin-left w3-margin-right w3-white">
+   <h2>CV</h2>
    <p>my cv</p>
    <p>some more text</p>
    <p>some more text</p>
+   <div class="w3-right-align"><p><a href="#top">back to top</a></p></div>
 </div>
 
 <div class="space"></div>
 
-<div class="w3-card-4 w3-container w3-margin-left w3-margin-right w3-white">
-<h3>Publications</h3>
+<div id="pu" class="w3-card-4 w3-container w3-margin-left w3-margin-right w3-white">
+   <h2>publications</h2>
    <p>my publications</p>
    <p>some more text</p>
    <p>some more text</p>
    <p>some more text</p>
    <p>some more text</p>
+   <div class="w3-right-align"><p><a href="#top">back to top</a></p></div>
 </div>
 
 <div class="space"></div>
 
-<div class="w3-card-4 w3-container w3-margin-left w3-margin-right w3-white">
-<h3>Teaching</h3>
-   <p>teaching...</p>
-   <p>not sure what to say</p>
-   <ul class="w3-ul">
-      <li>course 1</li>
-      <li>course 2</li>
-      <li>course 3</li>
-   </ul>
+<div id="te" class="w3-card-4 w3-container w3-margin-left w3-margin-right w3-white">
+   <h2>teaching</h2>
+   <div class="w3-row">
+      <ul class="w3-ul w3-col s12 m9 l6">
+         <li>course 1</li>
+         <li>course 2</li>
+         <li>course 3</li>
+      </ul>
+   </div>
+   <div class="w3-right-align"><p><a href="#top">back to top</a></p></div>
 </div>
+
+<div class="w3-container">&nbsp;</div>
 
 </body>
 </html> 
