@@ -1,4 +1,9 @@
+body{
+	margin: 0px;
+}
+
+
 #title{
 	background: #ffffff;
-	height: 2000px;
+	height: 1000px;
 }
