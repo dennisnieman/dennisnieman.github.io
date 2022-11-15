@@ -9,33 +9,39 @@
 }
 
 a {
-   color: #3f51b5;
-   text-decoration: none;
+  color: #3f51b5;
+  text-decoration: none;
 }
 
 body {
-   background: #eeeeee;
-   font-family: "Amiri";
-   font-weight: 400;
+  background: #eeeeee;
+  font-family: "Amiri";
+  font-weight: 400;
 }
 
 emph {
-   color: #3f51b5;
+  color: #3f51b5;
 }
 
 h1 {
-   font-family: "Roboto Slab";
-   font-size: 48pt;
-   font-weight: 100;
+  font-family: "Roboto Slab";
+  font-size: 48pt;
+  font-weight: 100;
 }
 
 h2, h3, h4, h5, h6 {
-   font-family: "Roboto Slab";
-   font-weight: 100;
+  font-family: "Roboto Slab";
+  font-weight: 100;
 }
+
 
 li a:hover, p a:hover {
-   color: #3f51b5;
-   text-decoration: underline;
+  color: #3f51b5;
+  text-decoration: underline;
 }
 
+
+.sticky {
+  position: fixed;
+  top: 0;
+}
