@@ -1,129 +1,154 @@
 <!DOCTYPE html>
 <html>
-   <title>Dennis Nieman</title>
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
-   <link rel="stylesheet" href="dennis.css">
-   
-   
-   <body class="w3-content">
-      
-      <!-- HEADER -->
-      <div class="w3-card-4">
-         <div class="w3-indigo w3-container"><h1>dennis nieman</h1></div>
-         <div class="w3-indigo">
-            <div class="w3-bar" style="font-family:'Roboto Slab';">
-               <a class="w3-bar-item w3-button" href="#ab">about</a>
-               <a class="w3-bar-item w3-button" href="#pub">publications</a>
-               <a class="w3-bar-item w3-button" href="#cv">cv</a>
-               <a class="w3-bar-item w3-button w3-right" href="https://www.linkedin.com/in/dennisnieman/" target="_blank">LinkedIn</a>
-            </div>
-         </div>
+<title>Dennis Nieman</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+<link rel="stylesheet" href="dennis.css">
+
+
+<body class="w3-content">
+
+  <!-- HEADER -->
+  <div id="head" class="w3-card-4">
+    <div class="w3-indigo w3-container"><h1>dennis nieman</h1></div>
+    <div id="menu" class="w3-content w3-bar w3-indigo" style="font-family:'Roboto Slab'; z-index:1;">
+      <a class="w3-bar-item w3-button" href="#about">about</a>
+      <a class="w3-bar-item w3-button" href="#publications">publications</a>
+      <a class="w3-bar-item w3-button" href="#cv">cv</a>
+      <a class="w3-bar-item w3-button w3-right" href="https://www.linkedin.com/in/dennisnieman/" target="_blank">LinkedIn</a>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <div id="about" class="w3-row w3-padding-64">
+    <div class="w3-threequarter w3-container">
+      <h2>about</h2>
+      <p>
+        I'm a PhD student in mathematical statistics at Vrije Universiteit Amsterdam. My supervisors are
+        <a href="https://research.vu.nl/en/persons/harry-van-zanten" target="_blank">Harry van Zanten</a>
+        and
+        <a href="https://dec.unibocconi.eu/people/botond-tibor-szabo" target="_blank">Botond Szabo</a>.
+      </p>
+
+      <p>
+        I work on the frequentist validity of variational Bayesian methods. I'm also working on a
+        publication based on my master thesis on statistics in a Lévy process queueing model.
+      </p>
+
+      <div class="w3-display-container w3-padding-64" style="font-family:'Roboto Slab';">
+        <div class="w3-display-middle w3-half w3-card-4 w3-padding-24 w3-indigo w3-center">
+          <div class="material-symbols-sharp">mail</div>
+          <div>first letter dot last name at vu dot nl</div>
+        </div>
       </div>
-      
-      <!-- ABOUT -->
-      <div id="ab" class="w3-row w3-padding-64">
-         <div class="w3-threequarter w3-container">
-            <h2>about</h2>
-            <p>I'm a PhD student in mathematical statistics at Vrije Universiteit Amsterdam. My supervisors are
-            <a href="https://research.vu.nl/en/persons/harry-van-zanten" target="_blank">Harry van Zanten</a>
-            and
-            <a href="https://dec.unibocconi.eu/people/botond-tibor-szabo" target="_blank">Botond Szabo</a>.</p>
-            
-            <p>I work on the frequentist validity of variational Bayesian methods. I'm also working on a
-            publication based on my master thesis on statistics in a Lévy process queueing model. </p>
-            
-            <div class="w3-display-container w3-padding-64" style="font-family:'Roboto Slab';">
-               <div class="w3-display-middle w3-half w3-card-4 w3-padding-24 w3-indigo w3-center">
-                  <div class="material-symbols-sharp">mail</div>
-                  <div>first letter dot last name at vu dot nl</div>
-               </div>
-            </div>
-         </div>
-         <div class="w3-quarter w3-card-4">
-            <img src="dennis.jpg" class="w3-image">
-         </div>
-      </div>
-      
-      <!-- PUBLICATIONS -->
-      <div id="pub" class="w3-container w3-padding-64">
-         <h2>publications</h2>
-         <ul class="w3-ul">
-            <li>
-               Nieman, D., Szabo, B., and van Zanten, H. (2022).
-               <a>Uncertainty quantification for sparse spectral variational approximations in Gaussian process regression</a>.
-               <i>In preparation.</i>
-            </li>
-            <li>
-               Nieman, D., Mandjes, M., and Ravner, L. (2022).
-               <a href="https://arxiv.org/abs/2205.09980" target="_blank">Input estimation from discrete workload observations in a L&eacute;vy-driven storage system</a>.
-               <i>Preprint</i>.
-            </li>
-            <li>
-               Nieman, D., Szabo, B., and van Zanten, H. (2022).
-               <a href="https://jmlr.org/papers/v23/21-1128.html" target="_blank">Contraction rates for sparse variational approximations in Gaussian process regression</a>.
-               <i>Journal of Machine Learning Research</i>, 23(205):1–26.
-            </li>
-         </ul>
-      </div>
-      
-      <!-- CV -->
-      <div id="cv" class="w3-container w3-padding-64">
-         <h2>short cv</h2>
-         
-         <h4>education</h4>
-         <ul class="w3-ul">
-            <li>
-               <p><b>PhD Mathematics</b> at Vrije Universiteit Amsterdam (current)</p>
-            </li>
-            <li>
-               <p><b>MSc. Mathematics</b> at University of Amsterdam (2020) &mdash; <i>cum laude</i></p>
-               <p>thesis: <i>Input estimation in a discretely observed L&eacute;vy-driven storage system</i></p>
-            </li>
-            <li>
-               <p><b>BSc. Mathematics</b> at University of Groningen (2018)</p>
-               <p>thesis: <i>Brownian motion as a weak limit of probability measures</i></p>
-            </li>
-         </ul>
-         
-         <h4>awards</h4>
-         <ul class="w3-ul">
-            <li>I received an award for my poster at j-ISBA 2022.</li>
-         </ul>
-         
-         <h4>invited talks</h4>
-         <ul class="w3-ul">
-            <li><i>Contraction rates for variational Bayes in GP regression</i> at EcoSta 2021</li>
-         </ul>
-         
-         <h4>other talks</h4>
-         <ul class="w3-ul">
-            <li>
-               <i>Frequentist guarantees of variational Bayes in GP regression</i><br>
-               poster at ISBA 2022 <br>
-               poster at j-ISBA 2022 <br>
-               contributed talk at BNP Cyprus 2022<br>
-            </li>
-            <li>
-               <i>Contraction rates for variational Bayes in GP regression</i><br>
-               poster at Dutch stochastics meeting 2021<br>
-               poster at CIRM winter school ‘End-to-end Bayesian learning’ 2021<br>
-               contributed talk at ISBA 2021
-            </li>
-         </ul>
-         
-         <h4>teaching</h4>
-         <ul class="w3-ul">
-            <li>TA for <i>Statistical models</i> (2020&mdash;2022) at Vrije Universiteit Amsterdam</li>
-            <li>TA for <i>Experimental design and data analysis</i> (2021, 2022) at Vrije Universiteit Amsterdam</li>
-            <li>TA for <i>Probability and statistics</i> (2021, 2022) at Amsterdam University College</li>
-         </ul>
-      </div>
-      
-      <!-- FOOTER -->
-      <div class="w3-card-4 w3-container w3-indigo" style="font-family:'Roboto Slab';">
-         <p style="text-align:right">&#169; 2022 Dennis Nieman</p>
-      </div>
-   </body>
+    </div>
+    <div class="w3-quarter w3-card-4">
+      <img src="dennis.jpg" class="w3-image">
+    </div>
+  </div>
+
+  <!-- PUBLICATIONS -->
+  <div id="publications" class="w3-container w3-padding-64">
+    <h2>publications</h2>
+    <ul class="w3-ul">
+      <li>
+        Nieman, D., Szabo, B., and van Zanten, H. (2022).
+        <a>Uncertainty quantification for sparse spectral variational approximations in Gaussian process regression</a>.
+        <i>In preparation.</i>
+      </li>
+      <li>
+        Nieman, D., Mandjes, M., and Ravner, L. (2022).
+        <a href="https://arxiv.org/abs/2205.09980" target="_blank">Input estimation from discrete workload observations in a L&eacute;vy-driven storage system</a>.
+        <i>Preprint</i>.
+      </li>
+      <li>
+        Nieman, D., Szabo, B., and van Zanten, H. (2022).
+        <a href="https://jmlr.org/papers/v23/21-1128.html" target="_blank">Contraction rates for sparse variational approximations in Gaussian process regression</a>.
+        <i>Journal of Machine Learning Research</i>, 23(205):1–26.
+      </li>
+    </ul>
+  </div>
+
+  <!-- CV -->
+  <div id="cv" class="w3-container w3-padding-64">
+    <h2>short cv</h2>
+
+    <h4>education</h4>
+    <ul class="w3-ul">
+      <li>
+        <p><b>PhD Mathematics</b> at Vrije Universiteit Amsterdam (current)</p>
+      </li>
+      <li>
+        <p><b>MSc. Mathematics</b> at University of Amsterdam (2020) &mdash; <i>cum laude</i></p>
+        <p>thesis: <i>Input estimation in a discretely observed L&eacute;vy-driven storage system</i></p>
+      </li>
+      <li>
+        <p><b>BSc. Mathematics</b> at University of Groningen (2018)</p>
+        <p>thesis: <i>Brownian motion as a weak limit of probability measures</i></p>
+      </li>
+    </ul>
+
+    <h4>awards</h4>
+    <ul class="w3-ul">
+      <li>I received an award for my poster at j-ISBA 2022.</li>
+    </ul>
+
+    <h4>invited talks</h4>
+    <ul class="w3-ul">
+      <li><i>Contraction rates for variational Bayes in GP regression</i> at EcoSta 2021</li>
+    </ul>
+
+    <h4>other talks</h4>
+    <ul class="w3-ul">
+      <li>
+        <i>Frequentist guarantees of variational Bayes in GP regression</i><br>
+        poster at ISBA 2022 <br>
+        poster at j-ISBA 2022 <br>
+        contributed talk at BNP Cyprus 2022<br>
+      </li>
+      <li>
+        <i>Contraction rates for variational Bayes in GP regression</i><br>
+        poster at Dutch stochastics meeting 2021<br>
+        poster at CIRM winter school ‘End-to-end Bayesian learning’ 2021<br>
+        contributed talk at ISBA 2021
+      </li>
+    </ul>
+
+    <h4>teaching</h4>
+    <ul class="w3-ul">
+      <li>TA for <i>Statistical models</i> (2020&mdash;2022) at Vrije Universiteit Amsterdam</li>
+      <li>TA for <i>Experimental design and data analysis</i> (2021, 2022) at Vrije Universiteit Amsterdam</li>
+      <li>TA for <i>Probability and statistics</i> (2021, 2022) at Amsterdam University College</li>
+    </ul>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="w3-card-4 w3-container w3-indigo" style="font-family:'Roboto Slab';">
+    <p style="text-align:right">&#169; 2022 Dennis Nieman</p>
+  </div>
+
+  <script>
+window.onscroll = function() {stickOrNot()};
+
+var menu = document.getElementById("menu");
+var topDistance = menu.offsetTop;
+var barHeight = menu.offsetHeight;
+
+var main = document.getElementById("about");
+var head = document.getElementById("head");
+
+function stickOrNot() {
+  if (window.pageYOffset >= topDistance) {
+    menu.classList.add("sticky", "w3-card-4");
+    head.classList.remove("w3-card-4");
+    document.body.style.paddingTop = barHeight + "px";
+  } else {
+    menu.classList.remove("sticky", "w3-card-4");
+    head.classList.add("w3-card-4");
+    document.body.style.paddingTop = "0px";
+  }
+}
+  </script>
+</body>
 </html>
