@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500&display=swap');
 
 .material-symbols-sharp {
   font-variation-settings:
@@ -15,6 +15,7 @@ a {
 
 body {
   background: #eeeeee;
+  font-family: serif;
   font-weight: 400;
 }
 
@@ -23,14 +24,14 @@ emph {
 }
 
 h1 {
-  font-family: "Merriweather", serif;
+  font-family: "Bodoni Moda", serif;
   font-size: 48pt;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 h2, h3, h4, h5, h6 {
-  font-family: "Merriweather", serif;
+  font-family: serif;
   font-style: normal;
   font-weight: 300;
 }
@@ -47,8 +48,9 @@ li a:hover, p a:hover {
   top: 0;
 }
 
-.mw {
-  font-family: "Merriweather", serif;
-  font-style: normal;
-  font-weight: 300;
+.bm {
+  font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+  font-style: italic;
+  font-weight: 500;
 }
